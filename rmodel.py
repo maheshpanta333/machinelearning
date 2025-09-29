@@ -6,7 +6,7 @@ plt.style.use("ggplot")
 #first we take data itself
 x_train=np.array([1.0,2.0])
 y_train=np.array([300,500])
-
+print(x_train)
 #now first we compute cost function which is very essential for w and b later
 def compute_cost(x,y,w,b):
     #first we see total number of sets of data we have
