@@ -1,0 +1,13 @@
+prefix=c:/Users/Dell/OneDrive/Documents/vscode/python/machinelearning/.conda/Library
+exec_prefix=c:/Users/Dell/OneDrive/Documents/vscode/python/machinelearning/.conda/Library
+libdir=c:/Users/Dell/OneDrive/Documents/vscode/python/machinelearning/.conda/Library/lib
+sharedlibdir=c:/Users/Dell/OneDrive/Documents/vscode/python/machinelearning/.conda/Library/lib
+includedir=c:/Users/Dell/OneDrive/Documents/vscode/python/machinelearning/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
