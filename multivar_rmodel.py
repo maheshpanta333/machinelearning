@@ -40,9 +40,12 @@ def compute_gradien(x,y,w,b):
 
     for i in range(m):
         #directly find error rather than creating function first 
+        #we calculate errors for each rows
         err=((np.dot(x[i],w)+b)-y[i])
         for j in range(n):
+            #then what we do is multiply that each error to all values of x[i][j] and summmate it to each column separately 
             dj_dw[j]=dj_dw[j]+err*x[i][j]
+            #then we sum all the change in one column so we calculate different dj_dw for one column separately in one rows by multiplying errors to the x element of the column itself
         dj_db=dj_db+err
     dj_db/=m
     dj_dw/=m
