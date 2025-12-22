@@ -38,5 +38,5 @@ Most of these models were developed on **Kaggle**. To run them:
 ---
 
 ## 📫 Connect with Me
-- **Kaggle:** [Your Kaggle Profile Link]
-- **LinkedIn:** [Your LinkedIn Profile Link]
+- **Kaggle:** [Join me in Kaggle](https://www.kaggle.com/maheshpanta)
+- **LinkedIn:** [Connect with me in LinkedIn](https://www.linkedin.com/in/mahesh-panta-829260342/)
